@@ -1,28 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class DialoqueManager : MonoBehaviour {
 
     [SerializeField]
-    private Text _NameText, _DText;
+    private GameObject _Player;
+
+    [SerializeField]
+    private TextMeshProUGUI _NameText, _DText;
 
     [SerializeField]
     private Animator _Anim;
 
     private Queue<string> _Sentences;
+    private PuzzleTrigger DGO;
+    private Button _Button;
 
-	void Start ()
+
+    public GameObject TGO;
+
+    void Start ()
     {
         _Sentences = new Queue<string>();
 	}
 
-    public void StartDialogue(Dialogue D)
+    public void StartDialogue(Dialogue D, GameObject T)
     {
         _Sentences.Clear();
         _NameText.text = D._Name;
-
+        TGO = T;
         _Anim.SetBool("IsOpen", true);
 
         foreach (string sentence in D._Sentences)
@@ -35,9 +44,9 @@ public class DialoqueManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
-        if (_Sentences.Count == 0)
+        if (_Sentences.Count <= 0)
         {
-            EndDialogue();
+            EndDialogue(TGO);
             return;
         }
 
@@ -57,8 +66,15 @@ public class DialoqueManager : MonoBehaviour {
         }
     }
 
-    private void EndDialogue()
+    private void EndDialogue(GameObject T)
     {
+        if (T.GetComponent<PuzzleTrigger>()._DestroyOnEnd)
+        {
+            Destroy(T);
+        }
+
+        _Player.GetComponent<PlayerMovement>().enabled = true;
+
         _Anim.SetBool("IsOpen", false);
     }
 }
