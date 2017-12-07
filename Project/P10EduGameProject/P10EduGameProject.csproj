@@ -226,7 +226,11 @@
     <Compile Include="Assets\Code\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Code\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Code\Dialogue\DialoqueManager.cs" />
+    <Compile Include="Assets\Code\House\HouseTrigger.cs" />
+    <Compile Include="Assets\Code\Inventory\OpenInventory.cs" />
     <Compile Include="Assets\Code\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Code\Plot\InteractionPlot.cs" />
+    <Compile Include="Assets\Code\Plot\Plot.cs" />
     <Compile Include="Assets\Code\Plot\PlotManager.cs" />
     <Compile Include="Assets\Code\Puzzle Trigger\PuzzleTrigger.cs" />
     <Compile Include="Assets\Import\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />

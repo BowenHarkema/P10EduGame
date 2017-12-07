@@ -4,8 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class DialoqueManager : MonoBehaviour {
-
+public class DialoqueManager : MonoBehaviour
+{
     [SerializeField]
     private GameObject _Player;
 
