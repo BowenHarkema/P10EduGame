@@ -223,12 +223,12 @@ Prefab:
     - target: {fileID: 114082041695653412, guid: 0546bae28d5a29c4bb8e55161e0850de,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114082041695653412, guid: 0546bae28d5a29c4bb8e55161e0850de,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 114082041695653412, guid: 0546bae28d5a29c4bb8e55161e0850de,
         type: 2}
@@ -5346,6 +5346,94 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855610870}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1886511484
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114746426442662466, guid: 414521b5672f0b94fb840938cb3e00a7,
+        type: 2}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 984997846}
+    - target: {fileID: 114746426442662466, guid: 414521b5672f0b94fb840938cb3e00a7,
+        type: 2}
+      propertyPath: _DManager
+      value: 
+      objectReference: {fileID: 2016839016}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080283541758182, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671747838786926, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114983926438281212, guid: 414521b5672f0b94fb840938cb3e00a7,
+        type: 2}
+      propertyPath: _Dialogue._Sentences.Array.data[0]
+      value: Hey and welcome to the farm!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114983926438281212, guid: 414521b5672f0b94fb840938cb3e00a7,
+        type: 2}
+      propertyPath: _Dialogue._Sentences.Array.data[1]
+      value: On this farm you will need to grow molecules and sell them to get rich
+        and famous!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114746426442662466, guid: 414521b5672f0b94fb840938cb3e00a7,
+        type: 2}
+      propertyPath: _DestroyOnEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671747838786926, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+      propertyPath: m_Name
+      value: PuzzleTrigger (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 414521b5672f0b94fb840938cb3e00a7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1897211482
 GameObject:
   m_ObjectHideFlags: 0
