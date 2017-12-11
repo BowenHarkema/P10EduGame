@@ -222,13 +222,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\Cam\FollowPlayer.cs" />
     <Compile Include="Assets\Code\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Code\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Code\Dialogue\DialoqueManager.cs" />
-    <Compile Include="Assets\Code\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Code\Plot\PlotManager.cs" />
     <Compile Include="Assets\Code\Puzzle Trigger\PuzzleTrigger.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Cam\FollowPlayer.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty House\HouseTrigger.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Inventory\OpenInventory.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Plot\InteractionPlot.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Plot\Plot.cs" />
+    <Compile Include="Assets\Dusty Corner\Dusty Code\Dusty Plot\PlotManager.cs" />
     <Compile Include="Assets\Import\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Import\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Import\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
