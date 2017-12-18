@@ -38,8 +38,13 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< HEAD
   - name: background
     uniqueID: 833387089
+=======
+  - name: Background
+    uniqueID: 4110170899
+>>>>>>> Art
     locked: 0
   - name: Default
     uniqueID: 0
