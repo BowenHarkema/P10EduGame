@@ -5,6 +5,7 @@ using UnityEngine;
 public class Molecule : MonoBehaviour
 {
     public MoleculeIdentifier _MoleculeID;
+    public int _MAmount;
 
     public void UpdateName()
     {

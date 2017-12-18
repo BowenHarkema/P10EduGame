@@ -6,8 +6,7 @@ public class PuzzleManager : MonoBehaviour {
 
     private string _Puzzle;
     private string _Answer1;
-
-
+    
 	void Start ()
     {
 		
@@ -17,4 +16,12 @@ public class PuzzleManager : MonoBehaviour {
     {
 		
 	}
+
+    public void MergeAndCheck()
+    {
+        if (_Answer1 == _Puzzle)
+        {
+            Debug.Log($"Winner winner chicken dinner");
+        }
+    }
 }
