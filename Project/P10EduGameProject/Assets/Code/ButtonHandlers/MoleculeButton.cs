@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class ButtonHandler : MonoBehaviour {
+public class MoleculeButton : MonoBehaviour {
 
     [SerializeField]
     private GameObject _Molecule, _ButtonPlus, _ButtonMinus;
 
-    private MoleculeMouseHandler _MoleculeMouseHandler; 
+    private MoleculeMouseHandler _MoleculeMouseHandler;
 
     private void Start()
     {

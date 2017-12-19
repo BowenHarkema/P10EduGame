@@ -5,27 +5,22 @@ using UnityEngine;
 public class MoleculeMouseHandler : MonoBehaviour {
 
     public GameObject _MoleculeType;
-    private PlusMinusHandler _PMHandler;
-
-    private void Start()
-    {
-        _PMHandler = FindObjectOfType<PlusMinusHandler>();
-    }
+    public int _MoleculeAmount;
 
     void Update ()
     {
-        Vector3 mpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mpos.z = 0f;
-        transform.position = mpos;
-
-        if (_MoleculeType != null)
-        {
-            _PMHandler._M = _MoleculeType.GetComponent<Molecule>();
-        }
+        MoveGO();
 
         if (Input.GetKeyUp(KeyCode.Q))
         {
             _MoleculeType = null;
         }
 	}
+
+    void MoveGO()
+    {
+        Vector3 mpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mpos.z = 0f;
+        transform.position = mpos;
+    }
 }
