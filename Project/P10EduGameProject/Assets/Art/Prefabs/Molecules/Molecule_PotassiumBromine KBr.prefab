@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4698646631546834}
   m_Layer: 0
-  m_Name: Molecule - PotassiumBromine KBr
+  m_Name: Molecule_PotassiumBromine KBr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,10 +102,10 @@ Transform:
   m_GameObject: {fileID: 1407377560078562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 39.2, y: 28.2, z: 0}
-  m_LocalScale: {x: 3.8745975, y: 3.8745975, z: 3.8745975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224541006964375622}
   - {fileID: 224216418458856372}
+  - {fileID: 224541006964375622}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,7 +128,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1d60eca6bd6f9d048a349e813bcd9259, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de883ee0bf7398049a5a6ebf6fa23926, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -155,7 +155,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1d60eca6bd6f9d048a349e813bcd9259, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de883ee0bf7398049a5a6ebf6fa23926, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -438,16 +438,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1670510076993422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.497742, y: 8.981567, z: 0}
-  m_LocalScale: {x: 0.25809133, y: 0.25809133, z: 0.25809133}
+  m_LocalPosition: {x: 36.799946, y: 34.799942, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224534046882960276}
   m_Father: {fileID: 4698646631546834}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.497742, y: 8.981567}
+  m_AnchoredPosition: {x: 36.799946, y: 34.799942}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224534046882960276
@@ -475,15 +475,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1224559940922994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.1171875, y: -7.278183, z: 0}
-  m_LocalScale: {x: 0.25809133, y: 0.25809133, z: 0.25809133}
+  m_LocalPosition: {x: -39.20002, y: -28.199982, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224048547293578216}
   m_Father: {fileID: 4698646631546834}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1171875, y: -7.278183}
+  m_AnchoredPosition: {x: -39.20002, y: -28.19998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
