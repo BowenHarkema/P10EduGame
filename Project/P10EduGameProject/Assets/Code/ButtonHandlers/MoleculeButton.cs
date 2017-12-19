@@ -30,6 +30,10 @@ public class MoleculeButton : MonoBehaviour {
 
     public void OnActivate()
     {
-        _MoleculeMouseHandler._MoleculeType = _Molecule;
+        if (_Molecule != _MoleculeMouseHandler._MoleculeType)
+        {
+            _MoleculeMouseHandler._MoleculeType = _Molecule;
+            _MoleculeMouseHandler._MoleculeAmount = 0;
+        }
     }
 }

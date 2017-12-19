@@ -5,9 +5,10 @@ using UnityEngine;
 public class Molecule : MonoBehaviour
 {
     public MoleculeIdentifier _MoleculeID;
+    public int _MoleculeNumber;
 
     public void UpdateName()
     {
-        gameObject.name = $"Molecule{_MoleculeID._MoleculeType}";
+        gameObject.name = $"Molecule_{_MoleculeID._MoleculeType}";
     }
 }
