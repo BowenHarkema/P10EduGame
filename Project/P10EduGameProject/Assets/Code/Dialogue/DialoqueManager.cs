@@ -7,9 +7,6 @@ using UnityEngine.UI;
 public class DialoqueManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _Player;
-
-    [SerializeField]
     private TextMeshProUGUI _NameText, _DText;
 
     [SerializeField]
@@ -72,9 +69,6 @@ public class DialoqueManager : MonoBehaviour
         {
             Destroy(T);
         }
-
-        _Player.GetComponent<PlayerMovement>().enabled = true;
-
         _Anim.SetBool("IsOpen", false);
     }
 }
