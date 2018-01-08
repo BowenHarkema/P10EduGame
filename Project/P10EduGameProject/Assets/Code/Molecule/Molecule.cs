@@ -6,6 +6,7 @@ public class Molecule : MonoBehaviour
 {
     public MoleculeIdentifier _MoleculeID;
     public int _MoleculeNumber;
+    public string _MoleculeN;
 
     public void UpdateName()
     {

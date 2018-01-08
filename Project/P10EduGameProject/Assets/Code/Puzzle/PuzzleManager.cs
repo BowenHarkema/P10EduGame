@@ -4,24 +4,48 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour {
 
-    private string _Puzzle;
-    private string _Answer1;
-    
-	void Start ()
-    {
-		
-	}
-	
-	void Update ()
-    {
-		
-	}
+    public string _Answer1;
 
-    public void MergeAndCheck()
+    [SerializeField]
+    private GameObject[] _Puzzleparts;
+
+    private bool _IsCorrect = false;
+
+    [SerializeField]
+    private Puzzle _PuzzleS;
+
+    private void Start()
     {
-        if (_Answer1 == _Puzzle)
+        GetButtons();
+    }
+
+    private void GetButtons()
+    {
+        int length = _PuzzleS._PuzzleParts.Length;
+        Debug.Log(length);
+        for (int i = 0; i < length; i++)
+        {
+            _Puzzleparts[i] = _PuzzleS._PuzzleParts[i].gameObject;
+        }
+    }
+
+    public void PuzzleCheck()
+    {
+        if (!_IsCorrect)
+        {
+            _PuzzleS.CreateSolution();
+
+            _Answer1 = _PuzzleS.MadeSolution;
+        }
+        Check();
+    }
+
+    public void Check()
+    {
+        if (_Answer1 == _PuzzleS.PuzzleAnswer)
         {
             Debug.Log($"Winner winner chicken dinner");
+            _IsCorrect = true;
         }
     }
 }
