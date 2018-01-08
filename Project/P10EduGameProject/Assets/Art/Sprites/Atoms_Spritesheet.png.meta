@@ -1,30 +1,25 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 0d206c2789fc56641af0bdd0c6b3134e
-timeCreated: 1513682517
-=======
-guid: a6a1f24d1c5986a4a89659652181705f
-timeCreated: 1515398381
->>>>>>> Art
+timeCreated: 1515404960
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Atoms_Spritesheet_C
-    21300002: Atoms_Spritesheet_H
-    21300004: Atoms_Spritesheet_O
-    21300006: Atoms_Spritesheet_N
-    21300008: Atoms_Spritesheet_I
-    21300010: Atoms_Spritesheet_Ti
-    21300012: Atoms_Spritesheet_Na
-    21300014: Atoms_Spritesheet_K
-    21300016: Atoms_Spritesheet_P
-    21300018: Atoms_Spritesheet_S
-    21300020: Atoms_Spritesheet_Br
-    21300022: Atoms_Spritesheet_Cl
-    21300024: Atoms_Spritesheet_Al
-    21300026: Atoms_Spritesheet_Fe
-    21300028: Atoms_Spritesheet_Cu
-    21300030: Atoms_Spritesheet_Zn
+    21300000: Atoms_Spritesheet_0
+    21300002: Atoms_Spritesheet_1
+    21300004: Atoms_Spritesheet_2
+    21300006: Atoms_Spritesheet_3
+    21300008: Atoms_Spritesheet_4
+    21300010: Atoms_Spritesheet_5
+    21300012: Atoms_Spritesheet_6
+    21300014: Atoms_Spritesheet_7
+    21300016: Atoms_Spritesheet_8
+    21300018: Atoms_Spritesheet_9
+    21300020: Atoms_Spritesheet_10
+    21300022: Atoms_Spritesheet_11
+    21300024: Atoms_Spritesheet_12
+    21300026: Atoms_Spritesheet_13
+    21300028: Atoms_Spritesheet_14
+    21300030: Atoms_Spritesheet_15
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -95,17 +90,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Atoms_Spritesheet_C
+      name: Atoms_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 128
-        height: 128
+        x: 2
+        y: 386
+        width: 124
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,13 +126,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atoms_Spritesheet_H
+      name: Atoms_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
+        x: 130
+        y: 386
+        width: 124
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,13 +140,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atoms_Spritesheet_O
+      name: Atoms_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 256
-        y: 384
-        width: 128
-        height: 128
+        y: 386
+        width: 125
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,695 +154,189 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atoms_Spritesheet_N
+      name: Atoms_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 386
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 258
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 258
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 258
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 130
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 130
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atoms_Spritesheet_15
       rect:
         serializedVersion: 2
         x: 384
-        y: 384
-        width: 128
-        height: 128
+        y: 2
+        width: 125
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_I
-      rect:
-        serializedVersion: 2
-        x: 0
-<<<<<<< HEAD
-        y: 256
-=======
-        y: 257
->>>>>>> Art
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Ti
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Na
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_K
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_P
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_S
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Br
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Cl
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Al
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Fe
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Cu
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atoms_Spritesheet_Zn
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-<<<<<<< HEAD
-    outline:
-    - - {x: -223, y: -128}
-      - {x: -256, y: -146}
-      - {x: -256, y: -224}
-      - {x: -239, y: -256}
-      - {x: -143, y: -256}
-      - {x: -128, y: -227}
-      - {x: -128, y: -147}
-      - {x: -144, y: -128}
-    - - {x: -111, y: -128}
-      - {x: -116, y: -129}
-      - {x: -128, y: -155}
-      - {x: -128, y: -245}
-      - {x: -100, y: -256}
-      - {x: -20, y: -256}
-      - {x: 0, y: -235}
-      - {x: 0, y: -157}
-      - {x: -15, y: -128}
-    - - {x: 231, y: -128}
-      - {x: 31, y: -128}
-      - {x: 0, y: -152}
-      - {x: 0, y: -228}
-      - {x: 5, y: -241}
-      - {x: 33, y: -256}
-      - {x: 225, y: -256}
-      - {x: 255, y: -225}
-      - {x: 255, y: -163}
-      - {x: 252, y: -155}
-    - - {x: -248, y: 0}
-      - {x: -256, y: -13}
-      - {x: -256, y: -93}
-      - {x: -239, y: -128}
-      - {x: -144, y: -128}
-      - {x: -128, y: -95}
-      - {x: -128, y: -15}
-      - {x: -137, y: 0}
-    - - {x: -19, y: 0}
-      - {x: -109, y: 0}
-      - {x: -128, y: -30}
-      - {x: -128, y: -112}
-      - {x: -111, y: -128}
-      - {x: -18, y: -128}
-      - {x: 0, y: -107}
-      - {x: 0, y: -35}
-      - {x: -12, y: -3}
-    - - {x: 26, y: 0}
-      - {x: 0, y: -28}
-      - {x: 0, y: -91}
-      - {x: 12, y: -128}
-      - {x: 110, y: -128}
-      - {x: 128, y: -121}
-      - {x: 128, y: -33}
-      - {x: 98, y: 0}
-    - - {x: 149, y: 0}
-      - {x: 128, y: -18}
-      - {x: 128, y: -99}
-      - {x: 143, y: -128}
-      - {x: 242, y: -128}
-      - {x: 256, y: -92}
-      - {x: 256, y: -31}
-      - {x: 229, y: 0}
-    - - {x: -133, y: 128}
-      - {x: -240, y: 128}
-      - {x: -256, y: 101}
-      - {x: -256, y: 16}
-      - {x: -253, y: 13}
-      - {x: -219, y: 0}
-      - {x: -159, y: 0}
-      - {x: -136, y: 18}
-      - {x: -128, y: 29}
-      - {x: -128, y: 105}
-    - - {x: -110, y: 128}
-      - {x: -114, y: 124}
-      - {x: -128, y: 98}
-      - {x: -128, y: 26}
-      - {x: -96, y: 0}
-      - {x: -13, y: 0}
-      - {x: 0, y: 30}
-      - {x: 0, y: 121}
-      - {x: -14, y: 128}
-    - - {x: 111, y: 120}
-      - {x: 89, y: 128}
-      - {x: 28, y: 128}
-      - {x: 4, y: 113}
-      - {x: 0, y: 107}
-      - {x: 0, y: 15}
-      - {x: 21, y: 0}
-      - {x: 126, y: 0}
-      - {x: 128, y: 11}
-      - {x: 128, y: 111}
-    - - {x: 218, y: 128}
-      - {x: 143, y: 128}
-      - {x: 128, y: 95}
-      - {x: 128, y: 19}
-      - {x: 153, y: 0}
-      - {x: 230, y: 0}
-      - {x: 256, y: 26}
-      - {x: 256, y: 98}
-      - {x: 253, y: 106}
-    - - {x: -156, y: 253}
-      - {x: -163, y: 256}
-      - {x: -228, y: 256}
-      - {x: -256, y: 232}
-      - {x: -256, y: 165}
-      - {x: -238, y: 136}
-      - {x: -222, y: 128}
-      - {x: -154, y: 128}
-      - {x: -128, y: 167}
-      - {x: -128, y: 208}
-      - {x: -130, y: 220}
-    - - {x: -102, y: 256}
-      - {x: -128, y: 232}
-      - {x: -128, y: 158}
-      - {x: -100, y: 128}
-      - {x: 105, y: 128}
-      - {x: 127, y: 151}
-      - {x: 127, y: 222}
-      - {x: 113, y: 256}
-    - - {x: 232, y: 256}
-      - {x: 153, y: 256}
-      - {x: 133, y: 240}
-      - {x: 128, y: 226}
-      - {x: 128, y: 154}
-      - {x: 159, y: 128}
-      - {x: 230, y: 128}
-      - {x: 256, y: 154}
-      - {x: 256, y: 220}
-      - {x: 244, y: 254}
-    physicsShape:
-    - - {x: -130, y: -213}
-      - {x: -128, y: -201}
-      - {x: -128, y: -179}
-      - {x: -136, y: -158}
-      - {x: -150, y: -142}
-      - {x: -158, y: -137}
-      - {x: -171, y: -130}
-      - {x: -183, y: -128}
-      - {x: -205, y: -128}
-      - {x: -218, y: -132}
-      - {x: -235, y: -141}
-      - {x: -253, y: -166}
-      - {x: -256, y: -176}
-      - {x: -256, y: -207}
-      - {x: -248, y: -226}
-      - {x: -242, y: -234}
-      - {x: -226, y: -247}
-      - {x: -213, y: -254}
-      - {x: -206, y: -256}
-      - {x: -182, y: -256}
-      - {x: -166, y: -253}
-      - {x: -158, y: -248}
-      - {x: -142, y: -234}
-      - {x: -137, y: -226}
-    - - {x: -1, y: -213}
-      - {x: 0, y: -205}
-      - {x: 0, y: -179}
-      - {x: -8, y: -158}
-      - {x: -14, y: -150}
-      - {x: -30, y: -137}
-      - {x: -43, y: -129}
-      - {x: -53, y: -128}
-      - {x: -76, y: -128}
-      - {x: -90, y: -132}
-      - {x: -106, y: -142}
-      - {x: -113, y: -150}
-      - {x: -124, y: -166}
-      - {x: -128, y: -178}
-      - {x: -128, y: -205}
-      - {x: -123, y: -217}
-      - {x: -120, y: -226}
-      - {x: -106, y: -242}
-      - {x: -98, y: -247}
-      - {x: -77, y: -256}
-      - {x: -50, y: -256}
-      - {x: -30, y: -248}
-      - {x: -22, y: -242}
-      - {x: -9, y: -226}
-    - - {x: 125, y: -212}
-      - {x: 132, y: -217}
-      - {x: 138, y: -229}
-      - {x: 149, y: -241}
-      - {x: 157, y: -247}
-      - {x: 171, y: -253}
-      - {x: 184, y: -256}
-      - {x: 204, y: -256}
-      - {x: 217, y: -252}
-      - {x: 233, y: -241}
-      - {x: 240, y: -234}
-      - {x: 248, y: -224}
-      - {x: 255, y: -206}
-      - {x: 255, y: -185}
-      - {x: 254, y: -180}
-      - {x: 251, y: -166}
-      - {x: 241, y: -150}
-      - {x: 229, y: -139}
-      - {x: 212, y: -130}
-      - {x: 200, y: -128}
-      - {x: 184, y: -128}
-      - {x: 170, y: -131}
-      - {x: 157, y: -137}
-      - {x: 149, y: -143}
-      - {x: 138, y: -155}
-      - {x: 126, y: -171}
-      - {x: 119, y: -158}
-      - {x: 114, y: -150}
-      - {x: 98, y: -136}
-      - {x: 78, y: -128}
-      - {x: 51, y: -128}
-      - {x: 30, y: -136}
-      - {x: 22, y: -142}
-      - {x: 9, y: -158}
-      - {x: 3, y: -172}
-      - {x: 0, y: -180}
-      - {x: 0, y: -200}
-      - {x: 3, y: -212}
-      - {x: 9, y: -226}
-      - {x: 14, y: -234}
-      - {x: 30, y: -247}
-      - {x: 43, y: -254}
-      - {x: 55, y: -256}
-      - {x: 77, y: -256}
-      - {x: 90, y: -252}
-      - {x: 106, y: -242}
-      - {x: 119, y: -226}
-    - - {x: -131, y: -84}
-      - {x: -128, y: -76}
-      - {x: -128, y: -56}
-      - {x: -131, y: -44}
-      - {x: -137, y: -30}
-      - {x: -150, y: -14}
-      - {x: -171, y: -1}
-      - {x: -179, y: 0}
-      - {x: -204, y: 0}
-      - {x: -218, y: -4}
-      - {x: -226, y: -8}
-      - {x: -242, y: -22}
-      - {x: -248, y: -30}
-      - {x: -256, y: -49}
-      - {x: -256, y: -77}
-      - {x: -248, y: -98}
-      - {x: -242, y: -106}
-      - {x: -226, y: -119}
-      - {x: -205, y: -128}
-      - {x: -178, y: -128}
-      - {x: -158, y: -120}
-      - {x: -150, y: -114}
-      - {x: -137, y: -98}
-    - - {x: -8, y: -98}
-      - {x: 0, y: -78}
-      - {x: 0, y: -50}
-      - {x: -8, y: -30}
-      - {x: -14, y: -22}
-      - {x: -30, y: -8}
-      - {x: -50, y: 0}
-      - {x: -78, y: 0}
-      - {x: -98, y: -8}
-      - {x: -106, y: -14}
-      - {x: -120, y: -30}
-      - {x: -128, y: -50}
-      - {x: -128, y: -72}
-      - {x: -125, y: -84}
-      - {x: -119, y: -98}
-      - {x: -114, y: -106}
-      - {x: -98, y: -119}
-      - {x: -84, y: -125}
-      - {x: -76, y: -128}
-      - {x: -51, y: -128}
-      - {x: -30, y: -120}
-      - {x: -22, y: -114}
-    - - {x: 127, y: -85}
-      - {x: 128, y: -77}
-      - {x: 128, y: -51}
-      - {x: 120, y: -30}
-      - {x: 114, y: -22}
-      - {x: 98, y: -9}
-      - {x: 85, y: -2}
-      - {x: 73, y: 0}
-      - {x: 51, y: 0}
-      - {x: 30, y: -8}
-      - {x: 14, y: -22}
-      - {x: 8, y: -30}
-      - {x: 0, y: -50}
-      - {x: 0, y: -72}
-      - {x: 3, y: -84}
-      - {x: 9, y: -98}
-      - {x: 14, y: -106}
-      - {x: 30, y: -119}
-      - {x: 44, y: -125}
-      - {x: 54, y: -128}
-      - {x: 77, y: -128}
-      - {x: 98, y: -120}
-      - {x: 106, y: -114}
-      - {x: 119, y: -98}
-    - - {x: 256, y: -78}
-      - {x: 256, y: -51}
-      - {x: 248, y: -30}
-      - {x: 242, y: -22}
-      - {x: 226, y: -9}
-      - {x: 213, y: -2}
-      - {x: 201, y: 0}
-      - {x: 179, y: 0}
-      - {x: 158, y: -8}
-      - {x: 142, y: -22}
-      - {x: 136, y: -30}
-      - {x: 128, y: -50}
-      - {x: 128, y: -76}
-      - {x: 135, y: -99}
-      - {x: 142, y: -106}
-      - {x: 158, y: -119}
-      - {x: 172, y: -125}
-      - {x: 182, y: -128}
-      - {x: 205, y: -128}
-      - {x: 226, y: -120}
-      - {x: 234, y: -114}
-      - {x: 248, y: -98}
-    - - {x: -128, y: 49}
-      - {x: -128, y: 80}
-      - {x: -136, y: 98}
-      - {x: -142, y: 106}
-      - {x: -158, y: 119}
-      - {x: -171, y: 127}
-      - {x: -181, y: 128}
-      - {x: -204, y: 128}
-      - {x: -212, y: 125}
-      - {x: -226, y: 119}
-      - {x: -234, y: 114}
-      - {x: -247, y: 98}
-      - {x: -253, y: 84}
-      - {x: -256, y: 74}
-      - {x: -256, y: 51}
-      - {x: -248, y: 30}
-      - {x: -242, y: 22}
-      - {x: -226, y: 9}
-      - {x: -205, y: 0}
-      - {x: -178, y: 0}
-      - {x: -158, y: 8}
-      - {x: -150, y: 14}
-      - {x: -137, y: 30}
-    - - {x: -2, y: 43}
-      - {x: 0, y: 55}
-      - {x: 0, y: 77}
-      - {x: -8, y: 98}
-      - {x: -22, y: 114}
-      - {x: -30, y: 120}
-      - {x: -50, y: 128}
-      - {x: -72, y: 128}
-      - {x: -84, y: 125}
-      - {x: -98, y: 119}
-      - {x: -106, y: 114}
-      - {x: -119, y: 98}
-      - {x: -126, y: 85}
-      - {x: -128, y: 74}
-      - {x: -128, y: 51}
-      - {x: -120, y: 30}
-      - {x: -106, y: 14}
-      - {x: -98, y: 9}
-      - {x: -79, y: 0}
-      - {x: -50, y: 0}
-      - {x: -30, y: 8}
-      - {x: -22, y: 14}
-      - {x: -9, y: 30}
-    - - {x: 120, y: 30}
-      - {x: 128, y: 50}
-      - {x: 128, y: 78}
-      - {x: 120, y: 98}
-      - {x: 114, y: 106}
-      - {x: 98, y: 120}
-      - {x: 78, y: 128}
-      - {x: 50, y: 128}
-      - {x: 30, y: 120}
-      - {x: 22, y: 114}
-      - {x: 9, y: 98}
-      - {x: 3, y: 84}
-      - {x: 0, y: 76}
-      - {x: 0, y: 56}
-      - {x: 3, y: 44}
-      - {x: 9, y: 30}
-      - {x: 14, y: 22}
-      - {x: 30, y: 8}
-      - {x: 50, y: 0}
-      - {x: 72, y: 0}
-      - {x: 84, y: 3}
-      - {x: 98, y: 9}
-      - {x: 106, y: 14}
-    - - {x: 247, y: 30}
-      - {x: 253, y: 44}
-      - {x: 256, y: 54}
-      - {x: 256, y: 77}
-      - {x: 248, y: 98}
-      - {x: 242, y: 106}
-      - {x: 226, y: 120}
-      - {x: 206, y: 128}
-      - {x: 178, y: 128}
-      - {x: 158, y: 120}
-      - {x: 150, y: 114}
-      - {x: 136, y: 98}
-      - {x: 128, y: 78}
-      - {x: 128, y: 50}
-      - {x: 136, y: 30}
-      - {x: 142, y: 22}
-      - {x: 158, y: 9}
-      - {x: 172, y: 3}
-      - {x: 180, y: 0}
-      - {x: 200, y: 0}
-      - {x: 212, y: 3}
-      - {x: 226, y: 9}
-      - {x: 234, y: 14}
-    - - {x: -137, y: 158}
-      - {x: -128, y: 177}
-      - {x: -128, y: 208}
-      - {x: -136, y: 226}
-      - {x: -142, y: 234}
-      - {x: -158, y: 248}
-      - {x: -178, y: 256}
-      - {x: -205, y: 256}
-      - {x: -226, y: 248}
-      - {x: -234, y: 242}
-      - {x: -247, y: 226}
-      - {x: -253, y: 212}
-      - {x: -256, y: 202}
-      - {x: -256, y: 179}
-      - {x: -248, y: 158}
-      - {x: -242, y: 150}
-      - {x: -226, y: 137}
-      - {x: -213, y: 129}
-      - {x: -203, y: 128}
-      - {x: -179, y: 128}
-      - {x: -158, y: 136}
-      - {x: -150, y: 142}
-    - - {x: -3, y: 172}
-      - {x: 2, y: 172}
-      - {x: 4, y: 167}
-      - {x: 7, y: 160}
-      - {x: 10, y: 155}
-      - {x: 21, y: 142}
-      - {x: 39, y: 131}
-      - {x: 50, y: 128}
-      - {x: 71, y: 128}
-      - {x: 89, y: 132}
-      - {x: 105, y: 142}
-      - {x: 116, y: 154}
-      - {x: 124, y: 172}
-      - {x: 127, y: 180}
-      - {x: 127, y: 199}
-      - {x: 126, y: 204}
-      - {x: 123, y: 218}
-      - {x: 113, y: 234}
-      - {x: 101, y: 245}
-      - {x: 83, y: 253}
-      - {x: 75, y: 256}
-      - {x: 55, y: 256}
-      - {x: 42, y: 253}
-      - {x: 29, y: 247}
-      - {x: 20, y: 242}
-      - {x: 6, y: 224}
-      - {x: 2, y: 212}
-      - {x: -5, y: 217}
-      - {x: -9, y: 226}
-      - {x: -15, y: 234}
-      - {x: -22, y: 242}
-      - {x: -43, y: 254}
-      - {x: -53, y: 256}
-      - {x: -77, y: 256}
-      - {x: -98, y: 248}
-      - {x: -106, y: 242}
-      - {x: -119, y: 226}
-      - {x: -126, y: 213}
-      - {x: -128, y: 202}
-      - {x: -128, y: 179}
-      - {x: -120, y: 158}
-      - {x: -106, y: 142}
-      - {x: -98, y: 136}
-      - {x: -79, y: 128}
-      - {x: -51, y: 128}
-      - {x: -30, y: 136}
-      - {x: -22, y: 142}
-      - {x: -9, y: 158}
-    - - {x: 256, y: 181}
-      - {x: 256, y: 205}
-      - {x: 248, y: 226}
-      - {x: 242, y: 234}
-      - {x: 226, y: 247}
-      - {x: 212, y: 253}
-      - {x: 202, y: 256}
-      - {x: 179, y: 256}
-      - {x: 158, y: 248}
-      - {x: 150, y: 242}
-      - {x: 137, y: 226}
-      - {x: 131, y: 212}
-      - {x: 128, y: 204}
-      - {x: 128, y: 179}
-      - {x: 136, y: 158}
-      - {x: 142, y: 150}
-      - {x: 158, y: 136}
-      - {x: 178, y: 128}
-      - {x: 206, y: 128}
-      - {x: 226, y: 136}
-      - {x: 242, y: 150}
-      - {x: 254, y: 171}
-=======
     outline: []
     physicsShape: []
->>>>>>> Art
   spritePackingTag: 
   userData: 
   assetBundleName: 
