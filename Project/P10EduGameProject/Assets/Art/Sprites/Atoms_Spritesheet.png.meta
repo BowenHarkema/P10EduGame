@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0d206c2789fc56641af0bdd0c6b3134e
 timeCreated: 1513682517
+=======
+guid: a6a1f24d1c5986a4a89659652181705f
+timeCreated: 1515398381
+>>>>>>> Art
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -154,7 +159,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 256
+=======
+        y: 257
+>>>>>>> Art
         width: 128
         height: 128
       alignment: 0
@@ -317,6 +326,7 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
     outline:
     - - {x: -223, y: -128}
       - {x: -256, y: -146}
@@ -816,6 +826,10 @@ TextureImporter:
       - {x: 226, y: 136}
       - {x: 242, y: 150}
       - {x: 254, y: 171}
+=======
+    outline: []
+    physicsShape: []
+>>>>>>> Art
   spritePackingTag: 
   userData: 
   assetBundleName: 
