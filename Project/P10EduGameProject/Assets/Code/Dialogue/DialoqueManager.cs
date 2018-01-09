@@ -16,7 +16,6 @@ public class DialoqueManager : MonoBehaviour
     private PuzzleTrigger DGO;
     private Button _Button;
 
-
     public GameObject TGO;
 
     void Start ()

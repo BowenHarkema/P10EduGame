@@ -47,5 +47,9 @@ public class PuzzleManager : MonoBehaviour {
             Debug.Log($"Winner winner chicken dinner");
             _IsCorrect = true;
         }
+        else
+        {
+            _PuzzleS.MadeSolution = "";
+        }
     }
 }

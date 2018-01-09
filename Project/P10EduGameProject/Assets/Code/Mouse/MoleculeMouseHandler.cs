@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class MoleculeMouseHandler : MonoBehaviour {
 
     public GameObject _MoleculeType;
-    public int _MoleculeAmount;
     public string _MoleculeN;
 
     [SerializeField]
@@ -19,7 +18,6 @@ public class MoleculeMouseHandler : MonoBehaviour {
         if (Input.GetMouseButtonUp(1))
         {
             _MoleculeType = null;
-            _MoleculeAmount = 0;
         }
 
         if (_MoleculeType != null)
