@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialoqueManager : MonoBehaviour
 {
@@ -67,6 +68,11 @@ public class DialoqueManager : MonoBehaviour
         if (T.GetComponent<PuzzleTrigger>()._DestroyOnEnd)
         {
             Destroy(T);
+        }
+        else if (T.GetComponent<PuzzleTrigger>()._FinishText)
+        {
+            int NSI = SceneManager.GetActiveScene().buildIndex + 1;
+            SceneManager.LoadScene(NSI);
         }
         _Anim.SetBool("IsOpen", false);
     }

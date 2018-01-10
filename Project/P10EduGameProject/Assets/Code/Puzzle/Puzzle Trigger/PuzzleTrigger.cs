@@ -5,6 +5,7 @@ using UnityEngine;
 public class PuzzleTrigger : MonoBehaviour
 {
     public bool _DestroyOnEnd;
+    public bool _FinishText;
 
     [SerializeField]
     private DialoqueManager _DManager;

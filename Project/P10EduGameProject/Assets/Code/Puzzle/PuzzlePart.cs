@@ -8,13 +8,16 @@ public class PuzzlePart : MonoBehaviour {
     public string PuzzlePartString;
     public int _PuzzlePartAmount;
 
-    private Text _Text;
     private MoleculeMouseHandler _MMH;
+    private Core _C;
+    private Text _AmountText;
+
+    public Sprite _PPartImage;
 
     private void Awake()
     {
         _MMH = FindObjectOfType<MoleculeMouseHandler>();
-        _Text = gameObject.GetComponentInChildren<Text>();
+        _AmountText = GetComponentInChildren<Text>();
     }
 
     public void Selected()
@@ -24,7 +27,8 @@ public class PuzzlePart : MonoBehaviour {
 
     private void LateUpdate()
     {
-        _Text.text = PuzzlePartString;
+        gameObject.GetComponent<Image>().sprite = _PPartImage;
+        _AmountText.text = _PuzzlePartAmount.ToString();
     }
 
 }

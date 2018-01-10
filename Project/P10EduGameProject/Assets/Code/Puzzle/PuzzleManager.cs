@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour {
 
+    [HideInInspector]
     public string _Answer1;
+
+    [SerializeField]
+    public PuzzleTrigger _WinnerD;
 
     [SerializeField]
     private GameObject[] _Puzzleparts;
@@ -44,7 +48,7 @@ public class PuzzleManager : MonoBehaviour {
     {
         if (_Answer1 == _PuzzleS.PuzzleAnswer)
         {
-            Debug.Log($"Winner winner chicken dinner");
+            _WinnerD.Trigger();
             _IsCorrect = true;
         }
         else

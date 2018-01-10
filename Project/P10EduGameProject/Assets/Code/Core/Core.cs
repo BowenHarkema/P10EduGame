@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Core : MonoBehaviour {
 
@@ -22,6 +23,8 @@ public class Core : MonoBehaviour {
     public void AddMolecule()
     {
         GameObject IM = Instantiate(_MMH._MoleculeType, gameObject.transform);
+        IM.AddComponent<Image>();
+        IM.GetComponent<Image>().sprite = _MMH.GetComponent<Image>().sprite;
         _MIC.Add(IM);
     }
 
@@ -43,6 +46,7 @@ public class Core : MonoBehaviour {
         }
         _PPart.PuzzlePartString = _MIC[0].GetComponent<Molecule>()._MoleculeN;
         _PPart._PuzzlePartAmount = _MIC.Count;
+        _PPart._PPartImage = _MIC[0].GetComponent<Image>().sprite;
         _PuzzleM.PuzzleCheck();
 
         ResetCore();
