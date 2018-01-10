@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialoqueManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _Player;
-
     [SerializeField]
     private TextMeshProUGUI _NameText, _DText;
 
@@ -18,7 +16,6 @@ public class DialoqueManager : MonoBehaviour
     private Queue<string> _Sentences;
     private PuzzleTrigger DGO;
     private Button _Button;
-
 
     public GameObject TGO;
 
@@ -72,9 +69,11 @@ public class DialoqueManager : MonoBehaviour
         {
             Destroy(T);
         }
-
-        _Player.GetComponent<PlayerMovement>().enabled = true;
-
+        else if (T.GetComponent<PuzzleTrigger>()._FinishText)
+        {
+            int NSI = SceneManager.GetActiveScene().buildIndex + 1;
+            SceneManager.LoadScene(NSI);
+        }
         _Anim.SetBool("IsOpen", false);
     }
 }

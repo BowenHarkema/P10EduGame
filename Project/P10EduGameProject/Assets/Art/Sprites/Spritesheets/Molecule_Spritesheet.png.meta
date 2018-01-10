@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 83b39cccb287c00499100171fe46ae40
+timeCreated: 1513868019
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Molecule_NO
+    21300002: Molecule_CS2
+    21300004: Molecule_Br2
+    21300006: Molecule_ClO3K
+    21300008: Molecule_KCl
+    21300010: Molecule_O2
+    21300012: Molecule_N2
+    21300014: Molecule_H2
+    21300016: Molecule_NH3
+    21300018: Molecule_AlBr3
+    21300020: Molecule_Cl2
+    21300022: Molecule_Na2O
+    21300024: Molecule_PCl3
+    21300026: Molecule_SO2
+    21300028: Molecule_SO3
+    21300030: Molecule_ZnO
+    21300032: Molecule_BrH
+    21300034: Molecule_CH4
+    21300036: Molecule_C3H8
+    21300038: Molecule_CO2
+    21300040: Molecule_H20
+    21300042: Molecule_P2O3
+    21300044: Molecule_ClAl3
+    21300046: Molecule_C2H4
+    21300048: Molecule_FeS2
+    21300050: Molecule_TiCl4
+    21300052: Molecule_Fe2O3
+    21300054: Molecule_FeCl3
+    21300056: Molecule_NaCl
+    21300058: Molecule_SH2
+    21300060: Molecule_NH4Br
+    21300062: Molecule_CO
+    21300064: Molecule_TiO2
+    21300066: Molecule_PBr5
+    21300068: Molecule_CuO
+    21300070: Molecule_K2O
+    21300072: Molecule_NO3H
+    21300074: Molecule_NaH
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Molecule_NO
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 107}
+        - {x: -78, y: 107}
+        - {x: -96, y: 103}
+        - {x: -111, y: 68}
+        - {x: -111, y: -19}
+        - {x: -10, y: -101}
+        - {x: 84, y: -101}
+        - {x: 111, y: -75}
+        - {x: 111, y: -1}
+      physicsShape:
+      - - {x: -94, y: 107}
+        - {x: -111, y: 74}
+        - {x: -111, y: -6}
+        - {x: 10, y: -101}
+        - {x: 92, y: -101}
+        - {x: 111, y: -76}
+        - {x: 111, y: 2}
+        - {x: 5, y: 107}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_CS2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127, y: 126}
+        - {x: -127, y: 6}
+        - {x: -90, y: -95}
+        - {x: -7, y: -124}
+        - {x: 124, y: -124}
+        - {x: 124, y: -5}
+        - {x: 1, y: 126}
+      physicsShape:
+      - - {x: -101, y: 126}
+        - {x: -127, y: 103}
+        - {x: -127, y: 46}
+        - {x: -113, y: 11}
+        - {x: 44, y: -124}
+        - {x: 98, y: -124}
+        - {x: 124, y: -95}
+        - {x: 124, y: -31}
+        - {x: -23, y: 126}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_Br2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 104}
+        - {x: -3, y: 111}
+        - {x: -90, y: 111}
+        - {x: -105, y: 86}
+        - {x: -110, y: 77}
+        - {x: -110, y: -29}
+        - {x: -37, y: -105}
+        - {x: 79, y: -105}
+        - {x: 102, y: -91}
+        - {x: 106, y: -82}
+        - {x: 106, y: 5}
+      physicsShape:
+      - - {x: -95, y: 111}
+        - {x: -110, y: 108}
+        - {x: -110, y: 8}
+        - {x: -4, y: -96}
+        - {x: 12, y: -105}
+        - {x: 75, y: -105}
+        - {x: 106, y: -79}
+        - {x: 106, y: 26}
+        - {x: 39, y: 111}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_ClO3K
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127, y: 78}
+        - {x: -128, y: 77}
+        - {x: -128, y: -44}
+        - {x: -87, y: -121}
+        - {x: 16, y: -121}
+        - {x: 128, y: -62}
+        - {x: 128, y: 17}
+        - {x: 90, y: 78}
+      physicsShape:
+      - - {x: 128, y: 2}
+        - {x: 99, y: 78}
+        - {x: -122, y: 78}
+        - {x: -128, y: 70}
+        - {x: -128, y: -29}
+        - {x: -82, y: -121}
+        - {x: -3, y: -121}
+        - {x: 24, y: -101}
+        - {x: 82, y: -74}
+        - {x: 128, y: -55}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_KCl
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 108}
+        - {x: -90, y: 108}
+        - {x: -108, y: 87}
+        - {x: -108, y: -1}
+        - {x: -23, y: -106}
+        - {x: 99, y: -106}
+        - {x: 108, y: -78}
+        - {x: 108, y: 1}
+        - {x: 37, y: 87}
+      physicsShape:
+      - - {x: -107, y: 108}
+        - {x: -108, y: 107}
+        - {x: -108, y: -10}
+        - {x: -29, y: -106}
+        - {x: 79, y: -106}
+        - {x: 108, y: -87}
+        - {x: 108, y: 8}
+        - {x: 51, y: 108}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_O2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 108}
+        - {x: -76, y: 108}
+        - {x: -108, y: 95}
+        - {x: -108, y: -44}
+        - {x: -24, y: -108}
+        - {x: 104, y: -108}
+        - {x: 107, y: -95}
+        - {x: 107, y: 20}
+      physicsShape:
+      - - {x: -74, y: 108}
+        - {x: -108, y: 95}
+        - {x: -108, y: -21}
+        - {x: 8, y: -108}
+        - {x: 107, y: -108}
+        - {x: 107, y: 29}
+        - {x: 11, y: 108}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_N2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 111}
+        - {x: -74, y: 111}
+        - {x: -106, y: 94}
+        - {x: -106, y: -25}
+        - {x: -28, y: -110}
+        - {x: 105, y: -110}
+        - {x: 105, y: 46}
+        - {x: 101, y: 65}
+      physicsShape:
+      - - {x: -106, y: 111}
+        - {x: -106, y: -19}
+        - {x: -48, y: -110}
+        - {x: 105, y: -110}
+        - {x: 105, y: -10}
+        - {x: 33, y: 111}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_H2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: 108}
+        - {x: -108, y: 97}
+        - {x: -108, y: -2}
+        - {x: -8, y: -109}
+        - {x: 103, y: -109}
+        - {x: 106, y: -108}
+        - {x: 106, y: 45}
+        - {x: 76, y: 108}
+      physicsShape:
+      - - {x: -11, y: 108}
+        - {x: -108, y: 108}
+        - {x: -108, y: -43}
+        - {x: -80, y: -109}
+        - {x: 106, y: -109}
+        - {x: 106, y: -14}
+        - {x: 18, y: 100}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_NH3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 117}
+        - {x: -55, y: 86}
+        - {x: -50, y: 59}
+        - {x: -43, y: 39}
+        - {x: -24, y: 27}
+        - {x: -112, y: -1}
+        - {x: -127, y: -39}
+        - {x: -127, y: -108}
+        - {x: -119, y: -113}
+        - {x: 114, y: -113}
+        - {x: 126, y: -89}
+        - {x: 126, y: -20}
+        - {x: 34, y: 117}
+      physicsShape:
+      - - {x: -63, y: 117}
+        - {x: -127, y: -9}
+        - {x: -127, y: -109}
+        - {x: -124, y: -113}
+        - {x: 113, y: -113}
+        - {x: 124, y: -96}
+        - {x: 124, y: 3}
+        - {x: 56, y: 117}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_AlBr3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 128}
+        - {x: -40, y: 117}
+        - {x: -118, y: 53}
+        - {x: -118, y: -78}
+        - {x: 9, y: -124}
+        - {x: 114, y: -124}
+        - {x: 114, y: 128}
+      physicsShape:
+      - - {x: 15, y: 128}
+        - {x: -117, y: 48}
+        - {x: -117, y: -25}
+        - {x: -93, y: -80}
+        - {x: -2, y: -124}
+        - {x: 113, y: -124}
+        - {x: 113, y: 128}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_Cl2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101, y: 106}
+        - {x: -112, y: 101}
+        - {x: -112, y: -9}
+        - {x: -8, y: -104}
+        - {x: 87, y: -104}
+        - {x: 94, y: -101}
+        - {x: 110, y: -73}
+        - {x: 110, y: 17}
+        - {x: 16, y: 106}
+      physicsShape:
+      - - {x: 7, y: 106}
+        - {x: -112, y: 106}
+        - {x: -112, y: -12}
+        - {x: -18, y: -104}
+        - {x: 110, y: -104}
+        - {x: 110, y: -4}
+        - {x: 98, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_Na2O
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 88}
+        - {x: -119, y: 19}
+        - {x: -119, y: -66}
+        - {x: -109, y: -92}
+        - {x: 104, y: -92}
+        - {x: 118, y: -79}
+        - {x: 118, y: 54}
+        - {x: 91, y: 88}
+      physicsShape:
+      - - {x: -69, y: 88}
+        - {x: -102, y: 28}
+        - {x: -119, y: -9}
+        - {x: -119, y: -77}
+        - {x: -111, y: -92}
+        - {x: 117, y: -92}
+        - {x: 117, y: 35}
+        - {x: 26, y: 88}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_PCl3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 117}
+        - {x: -123, y: 4}
+        - {x: -123, y: -106}
+        - {x: 121, y: -106}
+        - {x: 121, y: 37}
+        - {x: 73, y: 117}
+      physicsShape:
+      - - {x: 15, y: 117}
+        - {x: -35, y: 117}
+        - {x: -98, y: 99}
+        - {x: -123, y: 34}
+        - {x: -123, y: -106}
+        - {x: 121, y: -106}
+        - {x: 121, y: -4}
+        - {x: 41, y: 106}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_SO2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 83}
+        - {x: -66, y: 83}
+        - {x: -122, y: 18}
+        - {x: -122, y: -77}
+        - {x: -103, y: -88}
+        - {x: 121, y: -88}
+        - {x: 122, y: -84}
+        - {x: 122, y: 33}
+      physicsShape:
+      - - {x: -91, y: 83}
+        - {x: -122, y: 26}
+        - {x: -122, y: -88}
+        - {x: 122, y: -88}
+        - {x: 122, y: 17}
+        - {x: 89, y: 83}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_SO3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 115}
+        - {x: -122, y: 36}
+        - {x: -122, y: -92}
+        - {x: 118, y: -92}
+        - {x: 121, y: -86}
+        - {x: 121, y: 29}
+        - {x: 46, y: 115}
+      physicsShape:
+      - - {x: -42, y: 115}
+        - {x: -105, y: 9}
+        - {x: -122, y: -24}
+        - {x: -122, y: -92}
+        - {x: 121, y: -92}
+        - {x: 121, y: 21}
+        - {x: 67, y: 115}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_ZnO
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91, y: 110}
+        - {x: -106, y: 89}
+        - {x: -106, y: -17}
+        - {x: -28, y: -110}
+        - {x: 75, y: -110}
+        - {x: 80, y: -107}
+        - {x: 103, y: -91}
+        - {x: 103, y: 59}
+        - {x: 17, y: 110}
+      physicsShape:
+      - - {x: 12, y: 110}
+        - {x: -95, y: 110}
+        - {x: -106, y: 108}
+        - {x: -106, y: 10}
+        - {x: -12, y: -105}
+        - {x: 15, y: -110}
+        - {x: 71, y: -110}
+        - {x: 97, y: -95}
+        - {x: 103, y: -80}
+        - {x: 103, y: -6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_BrH
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 119}
+        - {x: -115, y: 99}
+        - {x: -115, y: -43}
+        - {x: -10, y: -113}
+        - {x: 106, y: -113}
+        - {x: 110, y: -101}
+        - {x: 110, y: 36}
+        - {x: 53, y: 119}
+      physicsShape:
+      - - {x: 48, y: 91}
+        - {x: 8, y: 119}
+        - {x: -77, y: 119}
+        - {x: -115, y: 85}
+        - {x: -115, y: -69}
+        - {x: -14, y: -113}
+        - {x: 104, y: -113}
+        - {x: 109, y: -103}
+        - {x: 109, y: -40}
+        - {x: 106, y: -30}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_CH4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 42}
+        - {x: 119, y: 121}
+        - {x: -119, y: 121}
+        - {x: -119, y: -117}
+        - {x: 115, y: -117}
+        - {x: 119, y: -112}
+        - {x: 119, y: -55}
+        - {x: 102, y: -27}
+      physicsShape:
+      - - {x: 33, y: 121}
+        - {x: 24, y: 119}
+        - {x: -6, y: 121}
+        - {x: -104, y: 121}
+        - {x: -119, y: 113}
+        - {x: -119, y: -117}
+        - {x: 119, y: -117}
+        - {x: 119, y: 121}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_C3H8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -50}
+        - {x: 119, y: 61}
+        - {x: 89, y: 109}
+        - {x: 47, y: 122}
+        - {x: -124, y: 122}
+        - {x: -124, y: -62}
+        - {x: -10, y: -122}
+        - {x: 116, y: -122}
+        - {x: 119, y: -111}
+        - {x: 119, y: -77}
+        - {x: 110, y: -70}
+      physicsShape:
+      - - {x: 70, y: 26}
+        - {x: 70, y: 49}
+        - {x: 61, y: 90}
+        - {x: 33, y: 122}
+        - {x: -124, y: 122}
+        - {x: -124, y: -5}
+        - {x: -102, y: -27}
+        - {x: -66, y: -76}
+        - {x: -36, y: -72}
+        - {x: -19, y: -57}
+        - {x: -30, y: -109}
+        - {x: -10, y: -121}
+        - {x: 112, y: -121}
+        - {x: 119, y: -109}
+        - {x: 119, y: 17}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_CO2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 128}
+        - {x: -126, y: 110}
+        - {x: -126, y: 34}
+        - {x: -38, y: -77}
+        - {x: 43, y: -126}
+        - {x: 118, y: -126}
+        - {x: 127, y: -111}
+        - {x: 127, y: -37}
+        - {x: -41, y: 128}
+      physicsShape:
+      - - {x: -126, y: 128}
+        - {x: -126, y: -57}
+        - {x: -6, y: -126}
+        - {x: 127, y: -126}
+        - {x: 127, y: -11}
+        - {x: -8, y: 128}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_H20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 106}
+        - {x: -81, y: 106}
+        - {x: -123, y: 4}
+        - {x: -123, y: -91}
+        - {x: -105, y: -104}
+        - {x: 121, y: -104}
+        - {x: 122, y: -103}
+        - {x: 122, y: -21}
+      physicsShape:
+      - - {x: 122, y: -72}
+        - {x: 122, y: -6}
+        - {x: 67, y: 72}
+        - {x: 29, y: 106}
+        - {x: -32, y: 106}
+        - {x: -50, y: 101}
+        - {x: -123, y: -31}
+        - {x: -123, y: -75}
+        - {x: -102, y: -103}
+        - {x: -101, y: -104}
+        - {x: -46, y: -104}
+        - {x: -11, y: -87}
+        - {x: 40, y: -104}
+        - {x: 110, y: -104}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_P2O3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: -125}
+        - {x: -15, y: -125}
+        - {x: 38, y: -115}
+        - {x: 115, y: -11}
+        - {x: 115, y: 127}
+        - {x: 35, y: 127}
+        - {x: -118, y: -9}
+      physicsShape:
+      - - {x: 115, y: 14}
+        - {x: 115, y: 112}
+        - {x: 101, y: 127}
+        - {x: 37, y: 127}
+        - {x: -116, y: -44}
+        - {x: -116, y: -113}
+        - {x: -101, y: -125}
+        - {x: -74, y: -125}
+        - {x: -65, y: -124}
+        - {x: -7, y: -124}
+        - {x: 10, y: -109}
+        - {x: 27, y: -85}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_ClAl3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126, y: 111}
+        - {x: -126, y: -7}
+        - {x: -83, y: -109}
+        - {x: 43, y: -109}
+        - {x: 68, y: -91}
+        - {x: 126, y: 32}
+        - {x: 126, y: 111}
+      physicsShape:
+      - - {x: -126, y: 111}
+        - {x: -126, y: -62}
+        - {x: -60, y: -109}
+        - {x: 73, y: -109}
+        - {x: 126, y: -24}
+        - {x: 126, y: 98}
+        - {x: 111, y: 111}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_C2H4
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123, y: -88}
+        - {x: 123, y: 92}
+        - {x: -126, y: 92}
+        - {x: -126, y: -83}
+        - {x: -115, y: -88}
+        - {x: -105, y: -90}
+        - {x: -70, y: -90}
+        - {x: -56, y: -70}
+        - {x: 80, y: -90}
+        - {x: 118, y: -90}
+      physicsShape:
+      - - {x: -125, y: 92}
+        - {x: -125, y: -90}
+        - {x: 123, y: -90}
+        - {x: 123, y: 92}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_FeS2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 116}
+        - {x: -83, y: 116}
+        - {x: -127, y: 44}
+        - {x: -127, y: -92}
+        - {x: -107, y: -119}
+        - {x: 115, y: -119}
+        - {x: 125, y: -114}
+        - {x: 125, y: 16}
+        - {x: 101, y: 81}
+      - - {x: -1, y: -33}
+        - {x: -1, y: -30}
+        - {x: -8, y: -18}
+        - {x: -1, y: -37}
+        - {x: 0, y: -37}
+      physicsShape:
+      - - {x: -39, y: 116}
+        - {x: -101, y: 72}
+        - {x: -127, y: -20}
+        - {x: -127, y: -95}
+        - {x: -113, y: -119}
+        - {x: 125, y: -119}
+        - {x: 125, y: -3}
+        - {x: 45, y: 116}
+      - - {x: -2, y: -29}
+        - {x: -10, y: -17}
+        - {x: -13, y: -14}
+        - {x: -18, y: -10}
+        - {x: -17, y: -11}
+        - {x: -14, y: -11}
+        - {x: -13, y: -12}
+        - {x: -6, y: -14}
+        - {x: 12, y: -13}
+        - {x: 12, y: -11}
+        - {x: 15, y: -11}
+        - {x: 16, y: -10}
+        - {x: 11, y: -14}
+        - {x: 5, y: -21}
+        - {x: 1, y: -30}
+        - {x: -1, y: -35}
+        - {x: -1, y: -37}
+        - {x: -2, y: -38}
+        - {x: -1, y: -42}
+        - {x: 0, y: -41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_TiCl4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -127}
+        - {x: 127, y: -115}
+        - {x: 127, y: -49}
+        - {x: 107, y: -24}
+        - {x: 85, y: -18}
+        - {x: 127, y: 47}
+        - {x: 127, y: 107}
+        - {x: 110, y: 128}
+        - {x: 47, y: 128}
+        - {x: 18, y: 115}
+        - {x: -1, y: 128}
+        - {x: -115, y: 128}
+        - {x: -127, y: 124}
+        - {x: -127, y: -127}
+        - {x: -45, y: -127}
+        - {x: -38, y: -124}
+        - {x: -13, y: -85}
+        - {x: 38, y: -127}
+      physicsShape:
+      - - {x: -127, y: 128}
+        - {x: -127, y: -108}
+        - {x: -115, y: -127}
+        - {x: 127, y: -127}
+        - {x: 127, y: 122}
+        - {x: 126, y: 128}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_Fe2O3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 126}
+        - {x: 53, y: 126}
+        - {x: 40, y: 68}
+        - {x: -42, y: 21}
+        - {x: -125, y: -61}
+        - {x: -125, y: -110}
+        - {x: -116, y: -126}
+        - {x: -27, y: -126}
+        - {x: 0, y: -122}
+        - {x: 32, y: -90}
+        - {x: 126, y: -23}
+        - {x: 126, y: 119}
+      physicsShape:
+      - - {x: 39, y: 126}
+        - {x: -27, y: 36}
+        - {x: -125, y: -50}
+        - {x: -125, y: -125}
+        - {x: 14, y: -125}
+        - {x: 126, y: -29}
+        - {x: 126, y: 126}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_FeCl3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 120}
+        - {x: -53, y: 90}
+        - {x: -50, y: 64}
+        - {x: -125, y: -25}
+        - {x: -125, y: -122}
+        - {x: 122, y: -122}
+        - {x: 126, y: -109}
+        - {x: 126, y: -18}
+        - {x: 45, y: 120}
+      physicsShape:
+      - - {x: -66, y: 120}
+        - {x: -125, y: 44}
+        - {x: -125, y: -120}
+        - {x: 126, y: -120}
+        - {x: 126, y: 30}
+        - {x: 89, y: 120}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_NaCl
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: 110}
+        - {x: -107, y: 76}
+        - {x: -107, y: 7}
+        - {x: -10, y: -108}
+        - {x: 92, y: -108}
+        - {x: 106, y: -90}
+        - {x: 106, y: 7}
+        - {x: 31, y: 110}
+      physicsShape:
+      - - {x: -100, y: 110}
+        - {x: -107, y: 96}
+        - {x: -107, y: -41}
+        - {x: -72, y: -108}
+        - {x: 106, y: -108}
+        - {x: 106, y: 54}
+        - {x: 2, y: 110}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_SH2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 89}
+        - {x: -45, y: 89}
+        - {x: -118, y: 2}
+        - {x: -118, y: -86}
+        - {x: 106, y: -86}
+        - {x: 118, y: -70}
+        - {x: 118, y: -18}
+        - {x: 40, y: 88}
+      physicsShape:
+      - - {x: -33, y: 89}
+        - {x: -118, y: 4}
+        - {x: -118, y: -75}
+        - {x: -112, y: -86}
+        - {x: 116, y: -86}
+        - {x: 116, y: 40}
+        - {x: 79, y: 89}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_NH4Br
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 126}
+        - {x: -38, y: 126}
+        - {x: -128, y: 26}
+        - {x: -128, y: -26}
+        - {x: -123, y: -37}
+        - {x: -99, y: -44}
+        - {x: -71, y: -46}
+        - {x: -69, y: -65}
+        - {x: -39, y: -126}
+        - {x: 6, y: -126}
+        - {x: 22, y: -120}
+        - {x: 41, y: -93}
+        - {x: 38, y: -68}
+        - {x: 34, y: -54}
+        - {x: 40, y: -63}
+        - {x: 41, y: -101}
+        - {x: 56, y: -126}
+        - {x: 117, y: -126}
+        - {x: 127, y: -105}
+        - {x: 127, y: 43}
+        - {x: 45, y: 125}
+      physicsShape:
+      - - {x: 70, y: -40}
+        - {x: 41, y: -53}
+        - {x: 41, y: -112}
+        - {x: 66, y: -126}
+        - {x: 109, y: -126}
+        - {x: 127, y: -112}
+        - {x: 127, y: -57}
+        - {x: 109, y: -40}
+      - - {x: -62, y: 126}
+        - {x: -128, y: 96}
+        - {x: -128, y: -47}
+        - {x: -36, y: -123}
+        - {x: 61, y: -123}
+        - {x: 122, y: -30}
+        - {x: 122, y: 98}
+        - {x: 103, y: 126}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_CO
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -38}
+        - {x: 72, y: -62}
+        - {x: 82, y: -62}
+        - {x: 113, y: -22}
+        - {x: 113, y: 46}
+        - {x: 67, y: 66}
+        - {x: -109, y: 66}
+        - {x: -113, y: 48}
+        - {x: -113, y: -38}
+        - {x: -90, y: -62}
+        - {x: -18, y: -62}
+        - {x: -5, y: -59}
+        - {x: 14, y: -24}
+        - {x: 14, y: -20}
+        - {x: 14, y: -24}
+      physicsShape:
+      - - {x: -113, y: 66}
+        - {x: -113, y: -33}
+        - {x: -87, y: -62}
+        - {x: 95, y: -62}
+        - {x: 113, y: -60}
+        - {x: 113, y: 66}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_TiO2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -113, y: 128}
+        - {x: -127, y: 120}
+        - {x: -127, y: 13}
+        - {x: -100, y: -38}
+        - {x: 33, y: -126}
+        - {x: 36, y: -127}
+        - {x: 103, y: -127}
+        - {x: 127, y: -107}
+        - {x: 127, y: -14}
+        - {x: -4, y: 128}
+      physicsShape:
+      - - {x: -110, y: 128}
+        - {x: -127, y: 123}
+        - {x: -127, y: 21}
+        - {x: 2, y: -127}
+        - {x: 127, y: -127}
+        - {x: 127, y: -5}
+        - {x: -23, y: 128}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_PBr5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -122}
+        - {x: 91, y: -122}
+        - {x: 98, y: -109}
+        - {x: 104, y: -53}
+        - {x: 84, y: -45}
+        - {x: 74, y: -31}
+        - {x: 72, y: -34}
+        - {x: 89, y: -32}
+        - {x: 108, y: -24}
+        - {x: 126, y: -9}
+        - {x: 126, y: 55}
+        - {x: 66, y: 123}
+        - {x: -68, y: 123}
+        - {x: -127, y: 85}
+        - {x: -127, y: -28}
+        - {x: -99, y: -115}
+        - {x: -76, y: -122}
+        - {x: -22, y: -122}
+        - {x: -5, y: -96}
+        - {x: -4, y: -72}
+        - {x: -1, y: -118}
+      physicsShape:
+      - - {x: 69, y: -31}
+        - {x: 72, y: -31}
+        - {x: 101, y: -28}
+        - {x: 121, y: -13}
+        - {x: 126, y: 0}
+        - {x: 126, y: 93}
+        - {x: 85, y: 123}
+        - {x: -18, y: 123}
+        - {x: -43, y: 107}
+        - {x: -45, y: 91}
+        - {x: -47, y: 69}
+        - {x: -114, y: 69}
+        - {x: -127, y: 51}
+        - {x: -127, y: -26}
+        - {x: -100, y: -97}
+        - {x: -75, y: -122}
+        - {x: 78, y: -122}
+        - {x: 120, y: -88}
+        - {x: 91, y: -48}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_CuO
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -3}
+        - {x: 82, y: 7}
+        - {x: 69, y: 14}
+        - {x: 41, y: 83}
+        - {x: -10, y: 119}
+        - {x: -83, y: 119}
+        - {x: -119, y: 110}
+        - {x: -119, y: -27}
+        - {x: -64, y: -30}
+        - {x: -24, y: -30}
+        - {x: -12, y: -26}
+        - {x: -10, y: -24}
+        - {x: -12, y: -26}
+        - {x: -14, y: -27}
+        - {x: -24, y: -97}
+        - {x: 23, y: -114}
+        - {x: 92, y: -114}
+        - {x: 106, y: -101}
+        - {x: 114, y: -77}
+        - {x: 114, y: -21}
+      physicsShape:
+      - - {x: -7, y: 119}
+        - {x: -86, y: 119}
+        - {x: -119, y: 90}
+        - {x: -119, y: -28}
+        - {x: -28, y: -113}
+        - {x: 100, y: -113}
+        - {x: 113, y: -78}
+        - {x: 113, y: -7}
+        - {x: 6, y: 111}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_K2O
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 114}
+        - {x: -128, y: 98}
+        - {x: -128, y: 4}
+        - {x: -114, y: -28}
+        - {x: -52, y: -118}
+        - {x: 56, y: -118}
+        - {x: 96, y: -99}
+        - {x: 127, y: 11}
+        - {x: 127, y: 95}
+        - {x: 103, y: 114}
+      - - {x: -13, y: 11}
+        - {x: -7, y: 18}
+        - {x: -3, y: 27}
+        - {x: -1, y: 32}
+        - {x: 0, y: 36}
+        - {x: 0, y: 39}
+        - {x: -1, y: 39}
+        - {x: -1, y: 37}
+        - {x: 0, y: 36}
+        - {x: 0, y: 33}
+        - {x: 6, y: 18}
+        - {x: 10, y: 12}
+        - {x: 13, y: 10}
+        - {x: 11, y: 10}
+        - {x: 10, y: 11}
+        - {x: -12, y: 11}
+        - {x: -13, y: 10}
+      physicsShape:
+      - - {x: 42, y: 114}
+        - {x: 18, y: 106}
+        - {x: 8, y: 84}
+        - {x: 0, y: 64}
+        - {x: 0, y: 37}
+        - {x: 3, y: 27}
+        - {x: -4, y: 27}
+        - {x: 0, y: 46}
+        - {x: -1, y: 64}
+        - {x: -2, y: 75}
+        - {x: -23, y: 102}
+        - {x: -40, y: 114}
+        - {x: -110, y: 114}
+        - {x: -128, y: 94}
+        - {x: -128, y: -14}
+        - {x: -42, y: -117}
+        - {x: 75, y: -117}
+        - {x: 127, y: -64}
+        - {x: 127, y: 97}
+        - {x: 104, y: 114}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_NO3H
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 53}
+        - {x: 59, y: 25}
+        - {x: 36, y: 114}
+        - {x: -52, y: 114}
+        - {x: -126, y: -24}
+        - {x: -126, y: -74}
+        - {x: -99, y: -91}
+        - {x: 94, y: -91}
+        - {x: 128, y: -62}
+        - {x: 128, y: 35}
+        - {x: 103, y: 52}
+      physicsShape:
+      - - {x: -40, y: 113}
+        - {x: -63, y: 92}
+        - {x: -126, y: -20}
+        - {x: -126, y: -91}
+        - {x: 127, y: -91}
+        - {x: 127, y: 56}
+        - {x: 58, y: 113}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Molecule_NaH
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90, y: 118}
+        - {x: -27, y: 118}
+        - {x: -106, y: 0}
+        - {x: -106, y: -107}
+        - {x: -78, y: -118}
+        - {x: -20, y: -118}
+        - {x: 99, y: -20}
+        - {x: 106, y: -13}
+        - {x: 106, y: 78}
+      physicsShape:
+      - - {x: -39, y: 118}
+        - {x: -106, y: 20}
+        - {x: -106, y: -99}
+        - {x: -79, y: -116}
+        - {x: 58, y: -116}
+        - {x: 106, y: -95}
+        - {x: 106, y: 118}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
