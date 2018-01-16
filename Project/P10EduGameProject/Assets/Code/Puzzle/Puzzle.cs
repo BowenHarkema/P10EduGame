@@ -13,6 +13,7 @@ public class Puzzle
     {
         for (int i = 0; i < _PuzzleParts.Length; i++)
         {
+            MadeSolution += _PuzzleParts[i]._PuzzlePartAmount;
             MadeSolution += _PuzzleParts[i].PuzzlePartString;
         }
     }
