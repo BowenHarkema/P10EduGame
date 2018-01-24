@@ -7,7 +7,6 @@ public class CombineCoresManager : MonoBehaviour {
     private GameObject _InputtedMolecule;
     private GameObject _OutputtedMolecule;
 
-
 	public void ElectrictyCore()
     {
 
