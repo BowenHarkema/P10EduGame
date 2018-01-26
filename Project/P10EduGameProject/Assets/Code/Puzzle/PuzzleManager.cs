@@ -26,7 +26,6 @@ public class PuzzleManager : MonoBehaviour {
     private void GetButtons()
     {
         int length = _PuzzleS._PuzzleParts.Length;
-        Debug.Log(length);
         for (int i = 0; i < length; i++)
         {
             _Puzzleparts[i] = _PuzzleS._PuzzleParts[i].gameObject;

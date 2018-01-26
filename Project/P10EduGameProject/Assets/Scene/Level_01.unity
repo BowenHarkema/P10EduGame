@@ -1439,6 +1439,7 @@ GameObject:
   - component: {fileID: 1253438036}
   - component: {fileID: 1253438041}
   - component: {fileID: 1253438042}
+  - component: {fileID: 1253438043}
   m_Layer: 5
   m_Name: core
   m_TagString: Untagged
@@ -1459,8 +1460,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _PPart: {fileID: 0}
   _MIC: []
+  _Combineing: 1
   _DTrigger: {fileID: 106628751}
   _PTrigger: {fileID: 1939197223}
+  _Comb: {fileID: 1253438043}
 --- !u!114 &1253438037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,6 +1601,21 @@ CircleCollider2D:
   m_Offset: {x: -1.9183373, y: 0}
   serializedVersion: 2
   m_Radius: 264.84445
+--- !u!114 &1253438043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253438035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b05f94e5bc74d49a76fe05c19c8b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _atom1: {fileID: 0}
+  _Atom1_Amount: 0
+  _atom2: {fileID: 0}
+  _atom2_Amount: 0
 --- !u!1 &1264101179
 GameObject:
   m_ObjectHideFlags: 0
