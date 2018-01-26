@@ -38,9 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UI_top
+    uniqueID: 1865448433
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Effects
     uniqueID: 1851858665
+    locked: 0
+  - name: UI_back
+    uniqueID: 3679626175
     locked: 0
