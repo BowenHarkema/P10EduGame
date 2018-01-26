@@ -586,7 +586,7 @@ MonoBehaviour:
   - _AudioName: Theme
     _Clip: {fileID: 8300000, guid: ce81f663d05892a4bab6a6d6c0be1661, type: 3}
     _Loop: 1
-    _Volume: 0.032
+    _Volume: 1
     _Pitch: 1
     _AudioSource: {fileID: 0}
 --- !u!4 &1595111327

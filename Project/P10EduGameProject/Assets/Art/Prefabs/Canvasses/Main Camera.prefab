@@ -2015,8 +2015,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _PPart: {fileID: 0}
   _MIC: []
+  _Combineing: 0
   _DTrigger: {fileID: 0}
   _PTrigger: {fileID: 0}
+  _Comb: {fileID: 0}
 --- !u!114 &114098534483832766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3322,7 +3324,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 224766847609841274}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20304568
+  m_Size: 0.20304567
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
